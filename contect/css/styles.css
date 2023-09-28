@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: "Josefin Sans";
+}
+
+body {
+  background-color: #dbeadd;
+}
+
+.page {
+  display: flex;
+}
+
+nav {
+  width: 20%;
+  height: 100vh;
+  border-right: 1px solid rgb(204, 195, 195);
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  background-color: #c4dcd3;
+  margin-bottom: 20px;
+  padding: 0.7em;
+}
+nav li svg {
+  position: relative;
+  top: 0.2em;
+}
+nav li img {
+  position: relative;
+  top: 0.2em;
+}
+nav li a {
+  width: 60px;
+  text-decoration: none;
+  color: #5b5b5b;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: normal;
+}
+nav .logo {
+  color: #0d5329;
+  font-family: Josefin Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+nav .logodiv {
+  display: flex;
+  padding: 1.5em;
+  margin: 0;
+  align-items: center;
+}
+nav .logodiv img {
+  position: relative;
+  bottom: 0.5em;
+}
+
+main {
+  width: 100%;
+}
+main .add {
+  margin: 1.8em;
+  background-color: #c4dcd3;
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  height: 20vh;
+}
+main .add .addcontent {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+}
+main .add .addcontent svg {
+  position: relative;
+  left: 1em;
+  top: 1em;
+}
+main .add h3 {
+  padding: 0.3em 0;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+main .mainContent {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #d9d9d9;
+  position: relative;
+}
+main .h3Border {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: "Josefin Sans";
+}
+
+body {
+  background-color: #dbeadd;
+}
+
+.page {
+  display: flex;
+}
+
+nav {
+  width: 20%;
+  height: 100vh;
+  border-right: 1px solid rgb(204, 195, 195);
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  background-color: #c4dcd3;
+  margin-bottom: 20px;
+  padding: 0.7em;
+}
+nav li svg {
+  position: relative;
+  top: 0.2em;
+}
+nav li img {
+  position: relative;
+  top: 0.2em;
+}
+nav li a {
+  width: 60px;
+  text-decoration: none;
+  color: #5b5b5b;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: normal;
+}
+nav .logo {
+  color: #0d5329;
+  font-family: Josefin Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+nav .logodiv {
+  display: flex;
+  padding: 1.5em;
+  margin: 0;
+  align-items: center;
+}
+nav .logodiv img {
+  position: relative;
+  bottom: 0.5em;
+}
+
+main {
+  width: 100%;
+}
+main .add {
+  margin: 1.8em;
+  background-color: #c4dcd3;
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  height: 20vh;
+}
+main .add .addcontent {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+}
+main .add .addcontent svg {
+  position: relative;
+  left: 1em;
+  top: 1em;
+}
+main .add h3 {
+  padding: 0.3em 0;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+main .mainContent {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #d9d9d9;
+  position: relative;
+}
+main .h3Border {
+  display: none;
+}
+
+main .add {
+  display: none;
+}
+main .mainContent {
+  margin-top: 1em;
+  justify-content: flex-start;
+  padding: 1em;
+}
+main .mainContent svg {
+  display: none;
+}
+main .mainContent .h3Border {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+ul .starred {
+  background-color: #d9d9d9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: "Josefin Sans";
+}
+
+body {
+  background-color: #dbeadd;
+}
+
+.page {
+  display: flex;
+}
+
+nav {
+  width: 20%;
+  height: 100vh;
+  border-right: 1px solid rgb(204, 195, 195);
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  background-color: #c4dcd3;
+  margin-bottom: 20px;
+  padding: 0.7em;
+}
+nav li svg {
+  position: relative;
+  top: 0.2em;
+}
+nav li img {
+  position: relative;
+  top: 0.2em;
+}
+nav li a {
+  width: 60px;
+  text-decoration: none;
+  color: #5b5b5b;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: normal;
+}
+nav .logo {
+  color: #0d5329;
+  font-family: Josefin Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+nav .logodiv {
+  display: flex;
+  padding: 1.5em;
+  margin: 0;
+  align-items: center;
+}
+nav .logodiv img {
+  position: relative;
+  bottom: 0.5em;
+}
+
+main {
+  width: 100%;
+}
+main .add {
+  margin: 1.8em;
+  background-color: #c4dcd3;
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  height: 20vh;
+}
+main .add .addcontent {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+}
+main .add .addcontent svg {
+  position: relative;
+  left: 1em;
+  top: 1em;
+}
+main .add h3 {
+  padding: 0.3em 0;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+main .mainContent {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #d9d9d9;
+  position: relative;
+}
+main .h3Border {
+  display: none;
+}
+
+main .add {
+  display: none;
+}
+main .mainContent {
+  margin-top: 1em;
+  justify-content: flex-start;
+  padding: 1em;
+}
+main .mainContent svg {
+  display: none;
+}
+main .mainContent .h3Border {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+ul .starred {
+  background-color: #d9d9d9;
+}
+
+main .mainContent .h3Border h2 {
+  visibility: hidden;
+  position: relative;
+}
+main .mainContent .h3Border h2::after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Bin";
+}
+
+ul .starred {
+  background-color: #c4dcd3;
+}
+ul .bin {
+  background-color: #d9d9d9;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/JosefinSans-Regular.ttf");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/JosefinSans-Bold.ttf");
+  font-weight: 700;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+img {
+  height: 100%;
+}

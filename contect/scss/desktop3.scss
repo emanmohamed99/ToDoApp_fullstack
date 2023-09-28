@@ -1,0 +1,65 @@
+@import "desktop2";
+@import "./variable";
+main {
+  .mainContent {
+    .h3Border {
+      h2 {
+        visibility: hidden;
+        position: relative;
+      }
+      h2::after {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "Bin";
+      }
+    }
+  }
+}
+ul {
+  .starred {
+    background-color: $greenColor;
+  }
+  .bin {
+    background-color: $graycolor;
+  }
+}
+.logo {
+  text-decoration: none;
+}
+.saved-container {
+  margin: 2em;
+  display: flex;
+  position: relative;
+  background-color: #c4dcd3;
+  border: 4px solid #0d5329;
+  border-bottom-right-radius: 3em;
+  border-top-right-radius: 3em;
+  width: 80%;
+  height: max-content;
+  .savedContainerNo {
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    left: -30px;
+
+    padding: 1em;
+
+    h5 {
+      font-size: 2em;
+      color: #0d5329;
+    }
+  }
+  .saved {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em 2em;
+    h6 {
+      // display: inline;
+      font-size: 1.5em;
+      color: #000e06;
+    }
+  }
+}

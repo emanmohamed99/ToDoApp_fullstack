@@ -1,0 +1,193 @@
+@import "./variable";
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: "Josefin Sans";
+}
+body {
+  background-color: #dbeadd;
+}
+.page {
+  display: flex;
+  a {
+    text-decoration: none;
+  }
+}
+nav {
+  width: 20%;
+  height: 100vh;
+  border-right: 1px solid rgb(204, 195, 195);
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    background-color: $greenColor;
+    margin-bottom: 20px;
+    padding: 0.7em;
+    svg {
+      position: relative;
+      top: 0.2em;
+    }
+    img {
+      position: relative;
+      top: 0.2em;
+    }
+    a {
+      width: 60px;
+
+      text-decoration: none;
+      color: #5b5b5b;
+
+      font-size: 1em;
+
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .logo {
+    color: #0d5329;
+    font-family: Josefin Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .logodiv {
+    display: flex;
+    padding: 1.5em;
+    margin: 0;
+    align-items: center;
+    img {
+      position: relative;
+      bottom: 0.5em;
+    }
+  }
+}
+
+main {
+  width: 100%;
+
+  .add {
+    margin: 1.8em;
+    background-color: $greenColor;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    height: 20vh;
+    .addcontent {
+      display: flex;
+      justify-content: center;
+
+      width: 80%;
+      height: 80%;
+    }
+    .addcontent svg {
+      position: relative;
+      left: 1em;
+      top: 1em;
+    }
+    h3 {
+      padding: 0.3em 0;
+      font-size: 1.2em;
+      font-weight: 400;
+    }
+  }
+  .mainContent {
+    display: flex;
+    justify-content: flex-end;
+    background-color: $graycolor;
+    position: relative;
+  }
+  .h3Border {
+    display: none;
+  }
+}
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #a61616;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  #mydivheader {
+    display: flex;
+    justify-content: space-around;
+    background-color: #c4dcd3;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196f3;
+    color: #fff;
+  }
+}
+.button {
+  background-color: #c4dcd3;
+  border: none;
+  cursor: pointer;
+}
+
+.form-div {
+  background-color: #c4dcd3;
+  width: 15%;
+  padding: 1em;
+  margin: 1em;
+  border: solid 1px #5f8a70;
+  border-radius: 5px;
+ 
+  form {
+    text-align: center;
+
+    label {
+      display: block;
+    }
+    input {
+      width: 80%;
+      padding: 0.5em;
+    }
+    .buttonDiv {
+     
+      margin: 1em;
+      background-color: #5f8a70;
+      border-radius: 1em;
+
+      padding: 0.5em;
+      button {
+        color: white;
+        width: 100%;
+        border: none;
+        background-color: #5f8a70;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.table-container {
+  width: 80%;
+  margin: auto;
+
+  table {
+    width: 100%;
+    margin: 1em 0;
+    border-collapse: collapse;
+    padding: 1em 0;
+    tr {
+     
+      border: 1px solid black;
+
+      margin: 1em;
+      width: 100%;
+      td {
+        text-align: center;
+      }
+    }
+  }
+}

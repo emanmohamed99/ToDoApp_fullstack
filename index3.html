@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./contect/css/desktop3.css" />
+    <script src="./contect/js/axios.min.js"></script>
+  </head>
+  <body>
+    <section class="page">
+      <nav>
+        <a href="index1.html">
+          <div class="logodiv">
+            <img src="./contect/images/Icon.png" alt="icon" />
+            <h1 class="logo">To-Do's</h1>
+          </div></a
+        >
+        <ul>
+          <li>
+            <img src="./contect/images/image 1.png" alt="right" />
+            <a href="#">tasks</a>
+          </li>
+          <li class="starred">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="29"
+              height="27"
+              viewBox="0 0 29 27"
+              fill="none"
+            >
+              <path
+                d="M13.5739 1.92523C13.9121 1.0948 15.0879 1.09481 15.4261 1.92522L17.6725 7.44085C18.1028 8.49754 19.0953 9.21863 20.2333 9.30139L26.1731 9.73337C27.0674 9.79841 27.4308 10.9167 26.7455 11.495L22.194 15.3358C21.322 16.0716 20.9429 17.2384 21.2159 18.3462L22.6405 24.1288C22.855 24.9995 21.9037 25.6906 21.142 25.2176L16.0827 22.0757C15.1134 21.4738 13.8866 21.4738 12.9173 22.0757L7.85799 25.2176C7.09627 25.6906 6.14497 24.9995 6.35947 24.1288L7.78414 18.3462C8.05708 17.2384 7.67798 16.0716 6.806 15.3358L2.25448 11.495C1.56922 10.9167 1.93258 9.79841 2.82687 9.73337L8.76671 9.30139C9.90466 9.21863 10.8972 8.49754 11.3275 7.44086L13.5739 1.92523Z"
+                fill="none"
+                stroke="#34574A"
+                stroke-width="2"
+              />
+            </svg>
+            <a href="index2.html">starred</a>
+          </li>
+
+          <li class="bin">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="29"
+              height="26"
+              viewBox="0 0 29 26"
+              fill="none"
+            >
+              <path
+                d="M1 6.75085H27.8333"
+                stroke="#5B5B5B"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M24.0567 6.75078H4.76756L4.58497 9.70336C4.35026 13.4989 4.54932 17.3089 5.1783 21.0594L5.41927 22.4962C5.66164 23.9414 6.91258 25 8.37795 25H20.4463C21.9117 25 23.1626 23.9414 23.405 22.4962L23.646 21.0594C24.2749 17.3089 24.474 13.4989 24.2393 9.70336L24.0567 6.75078Z"
+                fill="#D0D0D0"
+                stroke="#5B5B5B"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M9.05396 6.7508V5.79233C9.05396 4.52133 9.61847 3.30238 10.6233 2.40364C11.6281 1.5049 12.991 1 14.412 1C15.8331 1 17.196 1.5049 18.2008 2.40364C19.2056 3.30238 19.7701 4.52133 19.7701 5.79233V6.7508"
+                fill="#none"
+              />
+              <path
+                d="M9.05396 6.7508V5.79233C9.05396 4.52133 9.61847 3.30238 10.6233 2.40364C11.6281 1.5049 12.991 1 14.412 1C15.8331 1 17.196 1.5049 18.2008 2.40364C19.2056 3.30238 19.7701 4.52133 19.7701 5.79233V6.7508"
+                stroke="#5B5B5B"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M11.1973 11.8839V19.8286"
+                stroke="#5B5B5B"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M17.627 11.8839V19.8286"
+                stroke="#5B5B5B"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+
+            <a href="index3.html">bin</a>
+          </li>
+        </ul>
+        <div class="borderr"></div>
+      </nav>
+      <main>
+        <div class="mainContent">
+          <div class="h3Border">
+            <h2>Saved Tasks</h2>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="80"
+            height="73"
+            viewBox="0 0 94 87"
+            fill="none"
+          >
+            <path
+              d="M50.6123 36.7428C54.7824 38.8413 56.2464 43.6338 53.9964 47.4149C51.7464 51.196 46.5678 52.6458 42.3977 50.5472C38.2276 48.4487 36.7636 43.6562 39.0136 39.8751C41.2636 36.094 46.4422 34.6443 50.6123 36.7428Z"
+              stroke="#424242"
+              stroke-width="2"
+            />
+            <path
+              d="M30.4578 38.2083C28.2165 36.3686 30.3116 32.8479 33.2047 33.592C36.4549 34.428 39.7169 31.922 39.5414 28.7292C39.3851 25.8851 43.4352 24.6747 44.8713 27.1231L44.9873 27.3209L45.8926 26.8274L44.9873 27.3209C46.6028 30.0751 50.6769 30.4085 52.9804 27.9795C55.0695 25.7766 58.7797 27.6436 57.8883 30.4493C56.9055 33.5429 59.4072 36.5186 62.8006 36.2851L63.0443 36.2683C66.0609 36.0607 67.1358 39.8501 64.4467 41.2623C61.4279 42.8476 60.8913 46.7251 63.4092 48.7918C65.6504 50.6314 63.5553 54.1522 60.6622 53.408C57.412 52.5721 54.15 55.0781 54.3255 58.2708C54.4818 61.115 50.4318 62.3253 48.9956 59.877L48.8796 59.6792C47.2641 56.9249 43.19 56.5916 40.8866 59.0205C38.7974 61.2235 35.0873 59.3565 35.9786 56.5507C36.9614 53.4572 34.4597 50.4814 31.0663 50.715L30.8226 50.7318C27.806 50.9394 26.7311 47.15 29.4202 45.7378C32.439 44.1525 32.9756 40.275 30.4578 38.2083Z"
+              stroke="#424242"
+              stroke-width="2"
+            />
+          </svg>
+        </div>
+        <div id="deleted"></div>
+        <div class="add">
+          <div class="addcontent">
+            <div>
+              <div>
+                <h3>add a task</h3>
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="66"
+                height="65"
+                viewBox="0 0 66 65"
+                fill="none"
+              >
+                <rect x="27" width="13" height="65" rx="5" fill="#FFF1F1" />
+                <rect
+                  x="0.1521"
+                  y="37.7592"
+                  width="13"
+                  height="65"
+                  rx="5"
+                  transform="rotate(-90.6701 0.1521 37.7592)"
+                  fill="#FFF1F1"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    <script src="./contect/js/myscript3.js"></script>
+  </body>
+</html>

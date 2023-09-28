@@ -1,0 +1,65 @@
+@import "desktop1";
+@import "variable";
+main {
+  .add {
+    display: none;
+  }
+  .mainContent {
+    margin-top: 1em;
+    justify-content: flex-start;
+    padding: 1em;
+    svg {
+      display: none;
+    }
+    .h3Border {
+      display: flex;
+      justify-content: center;
+      width: 25%;
+    }
+  }
+}
+ul {
+  .starred {
+    background-color: $graycolor;
+  }
+}
+.logo {
+  text-decoration: none;
+}
+
+.saved-container {
+  margin: 2em;
+  display: flex;
+  position: relative;
+  background-color: #c4dcd3;
+  border: 4px solid #0d5329;
+  border-bottom-right-radius: 3em;
+  border-top-right-radius: 3em;
+  width: 80%;
+  height: max-content;
+  .savedContainerNo {
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    left: -30px;
+    
+    padding: 1em;
+   
+
+    h5 {
+      font-size: 2em;
+      color: #0d5329;
+    }
+  }
+  .saved {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em 2em;
+    h6 {
+      // display: inline;
+      font-size: 1.5em;
+      color: #000e06;
+    }
+  }
+}

@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: "Josefin Sans";
+}
+
+body {
+  background-color: #dbeadd;
+}
+
+.page {
+  display: flex;
+}
+.page a {
+  text-decoration: none;
+}
+
+nav {
+  width: 20%;
+  height: 100vh;
+  border-right: 1px solid rgb(204, 195, 195);
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  background-color: #c4dcd3;
+  margin-bottom: 20px;
+  padding: 0.7em;
+}
+nav li svg {
+  position: relative;
+  top: 0.2em;
+}
+nav li img {
+  position: relative;
+  top: 0.2em;
+}
+nav li a {
+  width: 60px;
+  text-decoration: none;
+  color: #5b5b5b;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: normal;
+}
+nav .logo {
+  color: #0d5329;
+  font-family: Josefin Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+nav .logodiv {
+  display: flex;
+  padding: 1.5em;
+  margin: 0;
+  align-items: center;
+}
+nav .logodiv img {
+  position: relative;
+  bottom: 0.5em;
+}
+
+main {
+  width: 100%;
+}
+main .add {
+  margin: 1.8em;
+  background-color: #c4dcd3;
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  height: 20vh;
+}
+main .add .addcontent {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+}
+main .add .addcontent svg {
+  position: relative;
+  left: 1em;
+  top: 1em;
+}
+main .add h3 {
+  padding: 0.3em 0;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+main .mainContent {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #d9d9d9;
+  position: relative;
+}
+main .h3Border {
+  display: none;
+}
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #a61616;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+#mydiv #mydivheader {
+  display: flex;
+  justify-content: space-around;
+  background-color: #c4dcd3;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid black;
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.button {
+  background-color: #c4dcd3;
+  border: none;
+  cursor: pointer;
+}
+
+.form-div {
+  background-color: #c4dcd3;
+  width: 15%;
+  padding: 1em;
+  margin: 1em;
+  border: solid 1px #5f8a70;
+  border-radius: 5px;
+}
+.form-div form {
+  text-align: center;
+}
+.form-div form label {
+  display: block;
+}
+.form-div form input {
+  width: 80%;
+  padding: 0.5em;
+}
+.form-div form .buttonDiv {
+  margin: 1em;
+  background-color: #5f8a70;
+  border-radius: 1em;
+  padding: 0.5em;
+}
+.form-div form .buttonDiv button {
+  color: white;
+  width: 100%;
+  border: none;
+  background-color: #5f8a70;
+  cursor: pointer;
+}
+
+.table-container {
+  width: 80%;
+  margin: auto;
+}
+.table-container table {
+  width: 100%;
+  margin: 1em 0;
+  border-collapse: collapse;
+  padding: 1em 0;
+}
+.table-container table tr {
+  border: 1px solid black;
+  margin: 1em;
+  width: 100%;
+}
+.table-container table tr td {
+  text-align: center;
+}
+
+main .add {
+  display: none;
+}
+main .mainContent {
+  margin-top: 1em;
+  justify-content: flex-start;
+  padding: 1em;
+}
+main .mainContent svg {
+  display: none;
+}
+main .mainContent .h3Border {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+ul .starred {
+  background-color: #d9d9d9;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.saved-container {
+  margin: 2em;
+  display: flex;
+  position: relative;
+  background-color: #c4dcd3;
+  border: 4px solid #0d5329;
+  border-bottom-right-radius: 3em;
+  border-top-right-radius: 3em;
+  width: 80%;
+  height: max-content;
+}
+.saved-container .savedContainerNo {
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+  left: -30px;
+  padding: 1em;
+}
+.saved-container .savedContainerNo h5 {
+  font-size: 2em;
+  color: #0d5329;
+}
+.saved-container .saved {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em 2em;
+}
+.saved-container .saved h6 {
+  font-size: 1.5em;
+  color: #000e06;
+}
+
+main .mainContent .h3Border h2 {
+  visibility: hidden;
+  position: relative;
+}
+main .mainContent .h3Border h2::after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Bin";
+}
+
+ul .starred {
+  background-color: #c4dcd3;
+}
+ul .bin {
+  background-color: #d9d9d9;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.saved-container {
+  margin: 2em;
+  display: flex;
+  position: relative;
+  background-color: #c4dcd3;
+  border: 4px solid #0d5329;
+  border-bottom-right-radius: 3em;
+  border-top-right-radius: 3em;
+  width: 80%;
+  height: max-content;
+}
+.saved-container .savedContainerNo {
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+  left: -30px;
+  padding: 1em;
+}
+.saved-container .savedContainerNo h5 {
+  font-size: 2em;
+  color: #0d5329;
+}
+.saved-container .saved {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em 2em;
+}
+.saved-container .saved h6 {
+  font-size: 1.5em;
+  color: #000e06;
+}
